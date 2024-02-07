@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+<link rel="icon" type="image/png" href="images/logo.png"/>
+<title> Contact Me </title>
+<link rel="stylesheet" href="style.css">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+	.header{
+		background-image: url("images/contact/contact_banner.jpg");
+	}
+	</style>
+
+</head>
+
+
+<body>
+
+<div class="header">
+	<h1> Contact Me </h1> 
+ </div>
+
+ <div class="menu-btn" onclick="toggleNav()">☰ Menu</div>
+ <nav id="sidebar">
+	<a href="index.html"> Home </a>
+	<a href="aboutme.html"> About Me </a>
+	<a href="skills.html"> Skills </a>
+	<a href="achievements.html"> Achievements </a>
+	<a href="contact.html"> Contact Me </a>
+ </nav>
+
+<div class="main">
+			<!--Left side of body containing contact information-->
+	<div class="mainleft">
+		<p>You can contact me by sending me an e-mail to <a href="mailto:346307@cymoedd.ac.uk">346307@cymoedd.ac.uk</a> or by messaging me on Teams by searching for my ID, which is: 346307</p>
+		<p>You can also find me at Coleg y Cymoedd Nantgarw campus on these days:</p>
+		<ul>
+			<li>Monday: 9am - 4pm</li>
+			<li>Wednesday: 9am - 1pm</li>
+			<li>Thursday: 9am - 3pm</li>
+		</ul>
+	</div>
+			<!--Right side of body containing an embeded map-->
+	<div class="mainright">
+		<p>Here is the location of the Nantgarw campus:</p>
+		<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2480.2649302740065!2d-3.2777557229995455!3d51.563376606612124!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x486e198d8fef69f1%3A0x21a2bee6ef80ccd9!2sColeg%20y%20Cymoedd%20Nantgarw%20Campus!5e0!3m2!1sen!2suk!4v1707326130299!5m2!1sen!2suk" width="800" height="600" style="border:1;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+	</div>
+
+</div>
+
+<div class="footer">
+	<div class="right">
+		Created by Kacper Miodek at <a href="https://www.cymoedd.ac.uk/" target="_blank" rel="noopener noreferrer"> Coleg Y Cymoedd</a> | 2024 ©
+	</div>
+
+	<div class="contact">
+		Email me: <a href="mailto:346307@cymoedd.ac.uk">346307@cymoedd.ac.uk</a>
+	</div>
+</div>
+
+<script>
+	function toggleNav() {
+		const sidebar = document.getElementById('sidebar');
+		sidebar.style.width = sidebar.style.width === '200px' ? '0' : '200px';
+	}
+</script>
+
+</body>
+</html>

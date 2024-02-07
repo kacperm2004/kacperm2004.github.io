@@ -1,0 +1,118 @@
+/*Colour and margins of the main body*/
+html, body {
+	background-color:#575757;
+	margin: 0px;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+	
+}
+
+/*Link colour*/
+a {
+  color: rgb(90, 161, 105);
+}
+
+/*Core design of headers*/
+.header {
+  border-bottom: 15px;
+  border-bottom-color:white;
+  font-size: 30px;
+  font-family: "Bahnschrift";
+  color: white;
+  background-position: center;
+  padding-bottom: 25px;
+  padding-top: 25px;
+  padding-left: 25px;
+  background-attachment: scroll;
+  text-shadow: 2px 2px 4px #000000;
+}
+
+/*Content alignment*/
+.main {
+  font-family: "Bahnschrift";
+  font-size: 25px;
+  color: white;
+  padding: 50px;
+  text-align: justify;
+  margin-bottom: 2%;
+}
+
+/*Size of text section on some pages*/
+.mainleft {
+  max-width: 43%;
+  margin-left: 2%;
+  float: left;
+  margin-bottom: 2%;
+}
+.mainright {
+  max-width: 55%;
+  float: right;
+  text-align: center;
+  margin-top: 60px;
+}
+
+/*Footer*/
+.footer {
+  font-family: Bahnschrift;
+  position: relative;
+  left: 0;
+  bottom: 0;
+  width: 98%;
+  height: 20px;
+  background-color: rgb(54, 54, 54);
+  color: white;
+  padding: 1% 1%;
+  margin-top: auto;
+}
+
+/*Right side of the footer*/
+.right {
+  float: right;
+}
+
+/*Left side of the footer*/
+.contact{
+  float: left;
+}
+/*Stylesheet for the navigation bar*/
+nav {
+  background-color: #333;
+  overflow: hidden;
+  width: 200px;
+  height: 100vh;
+  position: fixed;
+  transition: 0.5s;
+  padding-top: 60px;
+  font-family: Bahnschrift;
+}
+nav a {
+  float: none;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-family: Bahnschrift;
+}
+nav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+.menu-btn {
+  font-size: 20px;
+  cursor: pointer;
+  position: fixed;
+  top: 20px;
+  left: 20px;
+  z-index: 2;
+  color: white;
+  font-family: Bahnschrift;
+}
+/*To align the image on the home page*/
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 75%;
+}

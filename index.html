@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+<link rel="icon" type="image/png" href="images/logo.png"/>
+<title> Home </title>
+<link rel="stylesheet" href="./style.css">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+	.header{
+		background-image: url("images/home/home_banner.jpg");
+	}
+
+	p{
+		margin-left: 80px;
+		margin-right: 80px;
+		margin-top: 100px;
+		margin-bottom: 100px;
+	}
+	 </style>
+</head>
+
+
+<body>
+
+<div class="header">
+	<h1> Home </h1> 
+ </div>
+			<!--Links for the navigation bar-->
+ <div class="menu-btn" onclick="toggleNav()">☰ Menu</div>
+ <nav id="sidebar">
+	 <a href="index.html"> Home </a>
+	 <a href="aboutme.html"> About Me </a>
+	 <a href="skills.html"> Skills </a>
+	 <a href="achievements.html"> Achievements </a>
+	 <a href="contact.html"> Contact Me </a>
+ </nav>
+ 			<!--Body content-->
+<div class="main">
+
+	<p>I created this website as a part of my job interview. The company that I want to apply for, Cymoedd Creations Game Studios have tasked me with creating a website
+		promoting my skills, as well as achievements and my interests. I hope that the website that I have created will help the company with deciding to hire me for the possition
+		of a junior web developer and I will be able to continue to develop my coding skills and allow me to monetize my passion. </p>
+
+	<img src="images/home/CyC.jpg" alt="Image showing Coleg y Cymoedd Nantgarw campus" class="center">
+</div>
+			<!--Code for the footer-->
+<div class="footer">
+	<div class="right">
+		Created by Kacper Miodek at <a href="https://www.cymoedd.ac.uk/" target="_blank" rel="noopener noreferrer"> Coleg Y Cymoedd</a> | 2024 ©
+	</div>
+
+	<div class="contact">
+		Email me: <a href="mailto:346307@cymoedd.ac.uk">346307@cymoedd.ac.uk</a>
+	</div>
+</div>
+			<!--JavaScript code for the navigation bar-->
+<script>
+	function toggleNav() {
+		const sidebar = document.getElementById('sidebar');
+		sidebar.style.width = sidebar.style.width === '200px' ? '0' : '200px';
+	}
+</script>
+
+</body>
+</html>

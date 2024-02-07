@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+<link rel="icon" type="image/png" href="images/logo.png"/>
+<title> Achievements </title>
+<link rel="stylesheet" href="style.css">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+	.header{
+		background-image: url("images/achievements/achievements_banner.jpg");
+	}
+	 </style>
+</head>
+
+
+<body>
+
+<div class="header">
+	<h1> Achievements </h1> 
+ </div>
+
+ <div class="menu-btn" onclick="toggleNav()">☰ Menu</div>
+ <nav id="sidebar">
+	<a href="index.html"> Home </a>
+	<a href="aboutme.html"> About Me </a>
+	<a href="skills.html"> Skills </a>
+	<a href="achievements.html"> Achievements </a>
+	<a href="contact.html"> Contact Me </a>
+ </nav>
+
+<div class="main">
+	<h2>My achievements include: </h2>
+	<ul>
+		<li>I finished a regional math competition in 3rd place at the age of 9</li>
+		<li>I finished Levels 1 and 2 of Computing and Internet Technology course at Coleg y Cymoedd with  the DD grade</li>
+		<li>I completed my GCSE Maths and Numeracy with a B grade</li>
+		<li>I volunteered in multiple charity actions and helped them collect food and money for less fortunate</li>
+	</ul>
+
+</div>
+
+<div class="footer">
+	<div class="right">
+		Created by Kacper Miodek at <a href="https://www.cymoedd.ac.uk/" target="_blank" rel="noopener noreferrer"> Coleg Y Cymoedd</a> | 2024 ©
+	</div>
+
+	<div class="contact">
+		Email me: <a href="mailto:346307@cymoedd.ac.uk">346307@cymoedd.ac.uk</a>
+	</div>
+</div>
+
+<script>
+	function toggleNav() {
+		const sidebar = document.getElementById('sidebar');
+		sidebar.style.width = sidebar.style.width === '200px' ? '0' : '200px';
+	}
+</script>
+
+</body>
+</html>

@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+<link rel="icon" type="image/png" href="images/logo.png"/>
+<title> About Me </title>
+<link rel="stylesheet" href="style.css">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+.header{
+	background-image: url("images/about/am_banner.jpg");
+}
+
+ img {
+	 border-radius: 50%;
+ }
+.main{
+	font-size: 30px;
+}
+
+ </style>
+ 
+</head>
+
+
+<body>
+
+<div class="header">
+		<h1> About Me </h1>
+ </div>
+
+ <div class="menu-btn" onclick="toggleNav()">☰ Menu</div>
+ <nav id="sidebar">
+	<a href="index.html"> Home </a>
+	<a href="aboutme.html"> About Me </a>
+	<a href="skills.html"> Skills </a>
+	<a href="achievements.html"> Achievements </a>
+	<a href="contact.html"> Contact Me </a>
+ </nav>
+
+<div class="main">
+			<!--Left side of body containing text-->
+<div class="mainleft">
+	My name is Kacper, I was born and I lived in Poland until august of 2020. I am 19 years old. When I lived in Poland, I was helping in animal shelters, and I was a volunteer for  a charity called Caritas, for which I helped in collecting food for less fortunate.
+	In the future I want to work as a game developer, software developer, IT technician or a Cyber Security analyst. I am interested in modern day technologies, online world, networking and programming, and that is why I decided to apply for this course.
+	I like listening to music while I’m working because it helps me to focus, relieves stress and it makes me more creative.
+	I like playing video games, especially single-player role-playing games, I also am interested in cars and motorcycles, as well as astronomy and other areas of science.
+	Based on the 16personalities test, I am a mediator, which means that I am creative and imaginative, and the iMA test has shown that I am a high green personality type, which indicates that I am logical and organised. The test also shows that I am working hard and that I prefer creating good quality products.
+</div>
+			<!--Right side of body containing an image of me-->
+<div class="mainright">
+	<img src="images/about/me.jpg" alt="Image of me" width="55%">
+</div>
+</div>
+<br style="clear: both;">
+
+<div class="footer">
+	<div class="right">
+		Created by Kacper Miodek at <a href="https://www.cymoedd.ac.uk/" target="_blank" rel="noopener noreferrer"> Coleg Y Cymoedd</a> | 2024 ©
+	</div>
+
+	<div class="contact">
+		Email me: <a href="mailto:346307@cymoedd.ac.uk">346307@cymoedd.ac.uk</a>
+	</div>
+</div>
+
+<script>
+       function toggleNav() {
+           const sidebar = document.getElementById('sidebar');
+           sidebar.style.width = sidebar.style.width === '200px' ? '0' : '200px';
+       }
+</script>
+
+</body>
+</html>
